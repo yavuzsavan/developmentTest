@@ -1,3 +1,4 @@
+
 body{
     box-sizing: border-box;
     margin: 0;
@@ -13,9 +14,9 @@ body{
     margin: 80px
 }
 
-.banner{
+/* .banner{
 
-}
+} */
 
 .banner-img{
     width: 80%;
@@ -24,6 +25,7 @@ body{
 .box{
     width: 250px;
     margin-top: 50px;
+    margin-right: 10px;
 }
 
 .box-img > img{
@@ -31,6 +33,10 @@ body{
     height: 100%;
     object-fit: cover;
     box-sizing: border-box;
+}
+
+.products{
+    display: flex;
 }
 
 .product-name{
